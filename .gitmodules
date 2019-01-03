@@ -1,0 +1,3 @@
+[submodule "deepknockoffs"]
+	path = deepknockoffs
+	url = https://pvossler@bitbucket.org/msesia/deepknockoffs.git
