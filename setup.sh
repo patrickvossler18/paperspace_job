@@ -2,7 +2,7 @@
 
 git clone https://pvossler@bitbucket.org/msesia/deepknockoffs.git
 
-cd deepknockoffs/Deepknockoffs
+cd ~/deepknockoffs/Deepknockoffs
 
 python3 setup.py install --user
 
