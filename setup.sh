@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-git clone https://pvossler@bitbucket.org/msesia/deepknockoffs.git
+git clone https://pvossler@bitbucket.org/msesia/deepknockoffs.git /workspace
 pwd
-cd /paperspace/deepknockoffs/Deepknockoffs
+cd /workspace/deepknockoffs/Deepknockoffs
 
 python3 setup.py install --user
 
-cd
-
+cd ../..
+pwd
 python3 student_t_network.py
